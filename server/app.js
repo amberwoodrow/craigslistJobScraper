@@ -13,7 +13,6 @@ var routes = require('./routes/index.js');
 // *** express instance *** //
 var app = express();
 
-
 // *** config middleware *** //
 app.use(logger('dev'));
 app.use(bodyParser.json());
